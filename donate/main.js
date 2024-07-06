@@ -28,8 +28,7 @@ $(document).ready(function () {
       var warning = "";
       if (no_choice) {
         warning =
-          "My <s>country</s> isn't supportd by any of the donation platforms like BuyMeACoffee, Ko-Fi, Stripe, etc. " +
-          "Sorry for the inconvenience.";
+          "Sorry but my <s>country</s> is not supportd by any of the donation platforms like github sponsors, Ko-Fi, Stripe, etc.";
       } else {
         var colorfy = (str) => {
           return `<span style="color:${cfg.color}"><b>${str}</b></span>`;
