@@ -1,0 +1,73 @@
+center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: center;
+	height: 100%;
+}
+.popup_body {
+	text-align: center;
+	background: #ddecff;
+	width: 200px;
+	height: auto;
+	padding: 0px 10px 10px;
+	border-radius: 5px;
+	box-shadow: 0 6px 30px rgba(50, 48, 48, 0.3);
+	font-family: "Poppins", sans-serif;
+}
+
+.title {
+	padding-top: 16px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: gray;
+}
+.qr {
+	text-align: center;
+	position: relative;
+	border: 2px solid #ddd;
+	margin: 0;
+	width: 170px;
+	height: 170px;
+}
+
+.wallet_address {
+	padding: 10px 20px 10px 20px;
+	word-wrap:break-word;
+	font-size: 14px;
+}
+
+.copy_btn {
+	background: transparent;
+	color: DodgerBlue;
+	font-size: 16px;
+	border: 2px solid DodgerBlue;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.btn_chain{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px;  
+	background-color: transparent;  
+	cursor: pointer;
+	padding: 10px 16px; 
+	margin: 16px;
+}
+.btn_icon {
+	padding-right: 10px;
+	background-size: contain !important;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+.btn_chain {
+	display: inline-flex;
+	align-items: center;
+}
+
+button:focus {
+    outline: none;
+}
