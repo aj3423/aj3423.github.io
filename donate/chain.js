@@ -39,7 +39,6 @@ var chains = [
 		chain: "Zano",
 		main_asset: "ZANO",
 		tokens: ["FUSD"],
-		token_standard: "Confidential Assets",
 		color: "#274CFF",
 		icon: "icon/zano.svg",
 		wallet_address: "ZxBjZ7zvJb2AbpeCuCzUnzgXDB6Szz4MnfeS81hNi7J1aPkAmCyEbK8NRj3kLGwChxF3KwQiA8Ufo2mRLTyrDxLF2XKsxztz7",
