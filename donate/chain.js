@@ -18,16 +18,6 @@ var chains = [
 		wallet_qr: "./qr/eth.png",
 	},
 	{
-		chain: "BSC",
-		main_asset: "BNB",
-		tokens: ["USDT", "USDC"],
-		token_standard: "BEP20",
-		color: "#f0b80a",
-		icon: "icon/bsc.svg",
-		wallet_address: "0x4D0e15DBC0296Fc5FE157A94DdA92542950DC6F4", // same as eth
-		wallet_qr: "./qr/bsc.png",
-	},
-	{
 		chain: "Solana",
 		main_asset: "SOL",
 		tokens: ["USDT", "USDC"],
@@ -38,6 +28,34 @@ var chains = [
 		wallet_qr: "./qr/sol.png",
 	},
 	{
+		chain: "Monero",
+		main_asset: "XMR",
+		color: "#D26E2B",
+		icon: "icon/xmr.svg",
+		wallet_address: "47tVNgXcyJu9quwyigSodefcka4dMzZnZZZZytLK4ERCiMB7Vwc5RyDH8j9rEmR9QDj3PmqhGuRxJQmbAKoBziNg2yZo222",
+		wallet_qr: "./qr/xmr.png",
+	},
+	{
+		chain: "Zano",
+		main_asset: "ZANO",
+		tokens: ["FUSD"],
+		token_standard: "Confidential Assets",
+		color: "#274CFF",
+		icon: "icon/zano.svg",
+		wallet_address: "ZxBjZ7zvJb2AbpeCuCzUnzgXDB6Szz4MnfeS81hNi7J1aPkAmCyEbK8NRj3kLGwChxF3KwQiA8Ufo2mRLTyrDxLF2XKsxztz7",
+		wallet_qr: "./qr/zano.png",
+	},
+	{
+		chain: "BSC",
+		main_asset: "BNB",
+		tokens: ["USDT", "USDC"],
+		token_standard: "BEP20",
+		color: "#f0b80a",
+		icon: "icon/bsc.svg",
+		wallet_address: "0x4D0e15DBC0296Fc5FE157A94DdA92542950DC6F4", // same as eth
+		wallet_qr: "./qr/bsc.png",
+	},
+	{
 		chain: "Tron",
 		main_asset: "TRX",
 		tokens: ["USDT", "USDC"],
@@ -46,14 +64,6 @@ var chains = [
 		icon: "icon/trc.svg",
 		wallet_address: "TXVq31JeuxACJXGL6jfB771FcTrfgXXz6b",
 		wallet_qr: "./qr/trx.png",
-	},
-	{
-		chain: "Monero",
-		main_asset: "XMR",
-		color: "#D26E2B",
-		icon: "icon/xmr.svg",
-		wallet_address: "47tVNgXcyJu9quwyigSodefcka4dMzZnZZZZytLK4ERCiMB7Vwc5RyDH8j9rEmR9QDj3PmqhGuRxJQmbAKoBziNg2yZo222",
-		wallet_qr: "./qr/xmr.png",
 	},
 	{
 		chain: "Others",
