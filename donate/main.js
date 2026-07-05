@@ -33,7 +33,7 @@ $(document).ready(function() {
 				var colorfy = (str) => {
 					return `<span style="color:${cfg.color}"><b>${str}</b></span>`;
 				};
-				var a = colorfy(`${cfg.main_asset} (${cfg.chain})`);
+				var a = colorfy(`${cfg.main_asset}`);
 				warning = `Only send ${a}`;
 				if (cfg.tokens) {
 					var tokens = colorfy(cfg.tokens.join(", "));
